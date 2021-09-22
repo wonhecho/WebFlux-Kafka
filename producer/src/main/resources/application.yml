@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: kafka-producer
+kafka:
+  topic: test
+  groupId: testGroupId
+server:
+  port: 9090
