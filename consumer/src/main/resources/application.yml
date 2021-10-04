@@ -4,11 +4,15 @@ spring:
       properties:
         spring:
           json:
-            value.default.type: net.zerotodev.api.consumer.domain.User
+            value.default.type: net.zerotodev.api.consumer.domain.Message
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/kafka
+
 kafka:
   topic: test
   groupId: testGroupId
   application:
     name: kafka-consumer
 server:
-  port: 9091
+  port: 8080

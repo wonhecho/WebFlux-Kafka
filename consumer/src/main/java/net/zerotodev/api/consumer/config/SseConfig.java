@@ -2,7 +2,7 @@ package net.zerotodev.api.consumer.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import reactor.core.publisher.Sinks;
+        import reactor.core.publisher.Sinks;
 
 @Configuration
 public class SseConfig {
