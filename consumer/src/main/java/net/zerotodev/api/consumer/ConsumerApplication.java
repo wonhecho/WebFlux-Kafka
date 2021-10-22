@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.mongodb.config.EnableMongoAuditing;
 import org.springframework.data.mongodb.repository.config.EnableReactiveMongoRepositories;
 
-// TEST
+// TEST V2
 @SpringBootApplication
 @EnableMongoAuditing  //요거랑!
 @EnableReactiveMongoRepositories  //요거!
